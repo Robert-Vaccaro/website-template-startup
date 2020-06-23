@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<title>Startup Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size: 16px;}
+img {margin-bottom: -8px;}
+.mySlides {display: none;}
+</style>
+<body class="bobby-content bobby-black" style="max-width:1500px;">
+
+<!-- Header with Slideshow -->
+<header class="bobby-display-container bobby-center">
+  <button class="bobby-button bobby-block bobby-green bobby-hide-large bobby-hide-medium" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button>
+  <div class="mySlides bobby-animate-opacity">
+    <img class="bobby-image" src="images/bg10.jpg" alt="Image 1" style="min-width:500px" width="1500" height="1000">
+    <div class="bobby-display-left bobby-padding bobby-hide-small" style="width:35%">
+      <div class="bobby-black bobby-opacity bobby-hover-opacity-off bobby-padding-large bobby-round-large">
+        <h1 class="bobby-xlarge">Take photos with our app</h1>
+        <hr class="bobby-opacity">
+        <p>Super simple installment: free of charge</p>
+        <p><button class="bobby-button bobby-block bobby-green bobby-round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button></p>
+      </div>
+    </div>xw
+  </div>
+  <div class="mySlides bobby-animate-opacity">
+    <img class="bobby-image" src="images/bg11.jpg" alt="Image 2" style="min-width:500px" width="1500" height="1000">
+    <div class="bobby-displxwck bobby-opacity bobby-hover-opacity-off bobby-padding-large bobby-round-large">
+        <h1 class="bobby-xlarge bobby-text-red"><b>CLICK!</b> Fast and Easy</h1>
+        <hr class="bobby-opacity">
+        <p>Choose from thousands of features</p>
+        <p><button class="bobby-button bobby-block bobby-red bobby-round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button></p>
+      </div>
+    </div>
+  </div>
+  <div class="mySlides bobby-animate-opacity">
+    <img class="bobby-image" src="images/bg12.jpg" alt="Image 3" style="min-width:500px" width="1500" height="1000">
+    <div class="bobby-display-left bobby-padding bobby-hide-small" style="width:35%">
+      <div class="bobby-black bobby-opacity bobby-hover-opacity-off bobby-padding-large bobby-round-large">
+        <h1 class="bobby-xlarge">Smart Design</h1>
+        <hr class="bobby-opacity">
+        <p>Customize photos as you go</p>
+        <p><button class="bobby-button bobby-block bobby-indigo bobby-round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button></p>
+      </div>
+    </div>
+  </div>
+  <a class="bobby-button bobby-black bobby-display-right bobby-margin-right bobby-round bobby-hide-small bobby-hover-light-grey" onclick="plusDivs(1)">Take Tour <i class="fa fa-angle-right"></i></a>
+  <a class="bobby-button bobby-block bobby-black bobby-hide-large bobby-hide-medium" onclick="plusDivs(1)">Take Tour <i class="fa fa-angle-right"></i></a>
+</header>
+
+<!-- The App Section -->
+<div class="bobby-padding-64 bobby-white">
+  <div class="bobby-row-padding">
+    <div class="bobby-col l8 m6">
+      <h1 class="bobby-jumbo"><b>The App</b></h1>
+      <h1 class="bobby-xxxlarge bobby-text-green"><b>Why buy it?</b></h1>
+      <p><span class="bobby-xlarge">Take photos like a pro.</span> You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <button class="bobby-button bobby-light-grey bobby-padding-large bobby-section bobby-hide-small" onclick="document.getElementById('download').style.display='block'">
+        <i class="fa fa-download"></i> Download Application
+      </button>
+      <p>Available for <i class="fa fa-android bobby-xlarge bobby-text-green"></i> <i class="fa fa-apple bobby-xlarge"></i> <i class="fa fa-windows bobby-xlarge bobby-text-blue"></i></p>
+    </div>
+    <div class="bobby-col l4 m6">
+      <img src="images/bg14.jpg" class="bobby-image bobby-right bobby-hide-small" width="335" height="471">
+      <div class="bobby-center bobby-hide-large bobby-hide-medium">
+        <button class="bobby-button bobby-block bobby-padding-large" onclick="document.getElementById('download').style.display='block'">
+          <i class="fa fa-download"></i> Download Application
+        </button>
+        <img src="images/bg15.jpg" class="bobby-image bobby-margin-top" width="335" height="471">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="download" class="bobby-modal bobby-animate-opacity">
+  <div class="bobby-modal-content" style="padding:32px">
+    <div class="bobby-container bobby-white">
+      <i onclick="document.getElementById('download').style.display='none'" class="fa fa-remove bobby-xlarge bobby-button bobby-transparent bobby-right bobby-xlarge"></i>
+      <h2 class="bobby-wide">DOWNLOAD</h2>
+      <p>Download the app in AppStore, Google Play or Microsoft Store.</p>
+      <i class="fa fa-android bobby-large"></i> <i class="fa fa-apple bobby-large"></i> <i class="fa fa-windows bobby-large"></i>
+      <p><input class="bobby-input bobby-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="bobby-button bobby-block bobby-padding-large bobby-red bobby-margin-bottom" onclick="document.getElementById('download').style.display='none'">Download</button>
+    </div>
+  </div>
+</div>
+
+<!-- Clarity Section -->
+<div class="bobby-padding-64 bobby-light-grey">
+  <div class="bobby-row-padding">
+    <div class="bobby-col l4 m6">
+      <img class="bobby-image bobby-round-large bobby-hide-small bobby-grayscale" src="images/bg9.jpg" alt="App" width="335" height="471">
+    </div>
+    <div class="bobby-col l8 m6">
+      <h1 class="bobby-jumbo"><b>Clarity</b></h1>
+      <h1 class="bobby-xxxlarge bobby-text-red"><b>Pixels, who?</b></h1>
+      <p><span class="bobby-xlarge">A revolution in resolution.</span> Sharp and clear photos with the world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Features Section -->
+<div class="bobby-container bobby-padding-64 bobby-dark-grey bobby-center">
+  <h1 class="bobby-jumbo"><b>Features</b></h1>
+  <p>This app is just so lorem ipsum.</p>
+
+  <div class="bobby-row" style="margin-top:64px">
+    <div class="bobby-col s3">
+      <i class="fa fa-bolt bobby-text-orange bobby-jumbo"></i>
+      <p>Fast</p>
+    </div>
+    <div class="bobby-col s3">
+      <i class="fa fa-heart bobby-text-red bobby-jumbo"></i>
+      <p>Loved</p>
+    </div>
+    <div class="bobby-col s3">
+      <i class="fa fa-camera bobby-text-yellow bobby-jumbo"></i>
+      <p>Clarity</p>
+    </div>
+    <div class="bobby-col s3">
+      <i class="fa fa-battery-full bobby-text-green bobby-jumbo"></i>
+      <p>Power</p>
+    </div>
+  </div>
+
+  <div class="bobby-row" style="margin-top:64px">
+    <div class="bobby-col s3">
+      <i class="fa fa-diamond bobby-text-white bobby-jumbo"></i>
+      <p>Sharp</p>
+    </div>
+    <div class="bobby-col s3">
+      <i class="fa fa-cloud bobby-text-blue bobby-jumbo"></i>
+      <p>Cloud</p>
+    </div>
+    <div class="bobby-col s3">
+      <i class="fa fa-globe bobby-text-amber bobby-jumbo"></i>
+      <p>Global</p>
+    </div>
+    <div class="bobby-col s3">
+      <i class="fa fa-hdd-o bobby-text-cyan bobby-jumbo"></i>
+      <p>Storage</p>
+    </div>
+  </div>
+  
+  <div class="bobby-row" style="margin-top:64px">
+    <div class="bobby-col s3">
+      <i class="fa fa-user bobby-text-sand bobby-jumbo"></i>
+      <p>Safe</p>
+    </div>
+    <div class="bobby-col s3">
+      <i class="fa fa-shield bobby-text-orange bobby-jumbo"></i>
+      <p>Stabile</p>
+    </div>
+    <div class="bobby-col s3">
+      <i class="fa fa-wifi bobby-text-grey bobby-jumbo"></i>
+      <p>Connected</p>
+    </div>
+    <div class="bobby-col s3">
+      <i class="fa fa-image bobby-text-pink bobby-jumbo"></i>
+      <p>HD</p>
+    </div>
+  </div>
+</div>
+
+<!-- Pricing Section -->
+<div class="bobby-padding-64 bobby-center bobby-white">
+  <h1 class="bobby-jumbo"><b>Pricing</b></h1>
+  <p class="bobby-large">Choose a pricing plan that fits your needs.</p>
+  <div class="bobby-row-padding" style="margin-top:64px">
+    <div class="bobby-half bobby-section">
+      <ul class="bobby-ul bobby-card bobby-hover-shadow">
+        <li class="bobby-dark-grey bobby-xlarge bobby-padding-32">Basic</li>
+        <li class="bobby-padding-16"><b>250</b> Photos</li>
+        <li class="bobby-padding-16"><b>10</b> Features</li>
+        <li class="bobby-padding-16"><b>No</b> Ads</li>
+        <li class="bobby-padding-16"><b>Office hours</b> Support</li>
+        <li class="bobby-padding-16">
+          <h2 class="bobby-opacity">$ 25</h2>
+        </li>
+        <li class="bobby-light-grey bobby-padding-24">
+          <button class="bobby-button bobby-black bobby-padding-large" onclick="document.getElementById('download').style.display='block'"><i class="fa fa-download"></i> Download</button>
+        </li>
+      </ul>
+    </div>
+    <div class="bobby-half bobby-section">
+      <ul class="bobby-ul bobby-card bobby-hover-shadow">
+        <li class="bobby-red bobby-xlarge bobby-padding-32">Premium</li>
+        <li class="bobby-padding-16"><b>1000</b> Photos</li>
+        <li class="bobby-padding-16"><b>50</b> Features</li>
+        <li class="bobby-padding-16"><b>No</b> Ads</li>
+        <li class="bobby-padding-16"><b>Endless</b> Support</li>
+        <li class="bobby-padding-16">
+          <h2 class="bobby-opacity">$ 99</h2>
+        </li>
+        <li class="bobby-light-grey bobby-padding-24">
+          <button class="bobby-button bobby-black bobby-padding-large" onclick="document.getElementById('download').style.display='block'"> <i class="fa fa-download"></i> Download</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <br>
+</div>
+
+<!-- Footer -->
+<footer class="bobby-container bobby-padding-32 bobby-light-grey bobby-center bobby-xlarge">
+  <div class="bobby-section">
+    <i class="fa fa-facebook-official bobby-hover-opacity"></i>
+    <i class="fa fa-instagram bobby-hover-opacity"></i>
+    <i class="fa fa-snapchat bobby-hover-opacity"></i>
+    <i class="fa fa-pinterest-p bobby-hover-opacity"></i>
+    <i class="fa fa-twitter bobby-hover-opacity"></i>
+    <i class="fa fa-linkedin bobby-hover-opacity"></i>
+  </div>
+</footer>
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
